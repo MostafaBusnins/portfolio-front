@@ -49,6 +49,7 @@ export default function VisitsPage() {
             >
               <p><span className="font-semibold text-sky-300">IP:</span> {visit.ip}</p>
               <p>
+                
                 <span className="font-semibold text-sky-300">City:</span>{" "}
                 {visit.city || "Unknown"}, {visit.country || "Unknown"}
               </p>
